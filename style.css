@@ -1,0 +1,94 @@
+body {
+  font-family: HK Grotesk;
+  background-color: white;
+}
+
+.orario {
+  font-family: "Verdana";
+  border-collapse: collapse;
+  color: #006F37;
+  font-size: small;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orario caption {
+  padding: 10px;
+  color: white;
+  background: #167C49;
+  font-size: 20px;
+  text-align: left;
+  
+ }
+.orario th {
+  font-family: "Verdana";
+  border-bottom: 3px solid #B9B29F;
+  border-top: 1px solid #B9B29F;
+  background: #FFFFFF;
+   border-left: 1px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+
+.orario td {
+  padding: 10px;
+	border-right: 1px solid #B9B29F;
+	border-left: 1px solid #B9B29F;
+  
+}
+.orario tr:nth-child(odd) {
+  background: white;
+}
+.orario tr:nth-child(even) {
+  background: #C6E2C5;
+}
+
+a {
+  font-family: "Verdana";
+  color: #000000;
+  font-size: 15px;
+   
+}
+
+a visited {
+  font-family: "Verdana";
+  color: #000000;
+  font-size: 15px;
+   background: #FFFFFF;
+}
+
+td.ultimo {
+font-family: "Verdana";
+  border-bottom: 1px solid #B9B29F;
+  border-left: 1px solid #B9B29F;
+  padding: 10px;
+  text-align: center;
+}
+
+td.ultimoClassi {
+font-family: "Verdana";
+  border-bottom: 1px solid #B9B29F;
+   border-left: 1px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+
+td.intervallo {
+	font-family: "Verdana";
+	border-bottom: 1px solid #B9B29F;
+	border-left: 1px solid #B9B29F;
+	border-top: 1px solid #B9B29F;
+	padding: 2px;
+  text-align: left;
+  background-color: #E3E2B3;
+}
+
+td.venerdi5 {
+font-family: "Verdana";
+  border-bottom: 1px solid #B9B29F;
+  
+  padding: 10px;
+  text-align: center;
+}
